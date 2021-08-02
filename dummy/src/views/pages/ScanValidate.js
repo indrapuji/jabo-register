@@ -38,7 +38,7 @@ const ScanValidate = () => {
                 <CCardHeader>
                   <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                     <CImg src={ShortLogo} align="center" height={80} />
-                    <a href="https://swab.klinikutamapanacea.com/"><h6 align="center" class="my-1">https://swab.klinikutamapanacea.com/</h6></a>
+                    <a href="https://register-eta.vercel.app/"><h6 align="center" class="my-1">https://register-eta.vercel.app</h6></a>
                   </div>
                 </CCardHeader>
                 <CCardBody>
@@ -61,7 +61,7 @@ const ScanValidate = () => {
                   <br />
                   <div>
                     <h6>VALIDATION LINK</h6>
-                    <a href={`https://swab.klinikutamapanacea.com/#/scan/${dataId}`}><h6 class="my-0">https://swab.klinikutamapanacea.com/#/scan/{dataId}</h6></a>
+                    <a href={`https://register-eta.vercel.app/#/scan/${dataId}`}><h6 class="my-0">https://register-eta.vercel.app/#/scan/{dataId}</h6></a>
                   </div>
 
                 </CCardBody>
