@@ -29,13 +29,13 @@ const EmployeePrint = React.forwardRef((props, ref) => {
   const [data, setData] = useState({});
   const [dokter, setDokter] = useState("");
   // eslint-disable-next-line
-  const [url, setUrl] = useState(`https://swab.klinikutamapanacea.com/#/scan/${hashLink}`);
+  const [url, setUrl] = useState(`https://register-eta.vercel.app/#/scan/${hashLink}`);
 
   const newRef = useRef(null);
 
   useEffect(() => {
     getPrint(dataPrint);
-    setUrl(`https://swab.klinikutamapanacea.com/#/scan/${hashLink}`);
+    setUrl(`https://register-eta.vercel.app/#/scan/${hashLink}`);
     qrCode.append(newRef.current);
     // eslint-disable-next-line
   }, [dataPrint, hashLink]);
